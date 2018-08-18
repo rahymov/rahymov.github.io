@@ -1,9 +1,20 @@
 ---
 layout: post
-title:      "**Be Professional**"
-date:       2018-08-17 02:18:04 +0000
+title:      " CLI DAILY DEAL GEM"
+date:       2018-08-16 22:18:05 -0400
 permalink:  be_professional
 ---
 
-# 
-### Hello, my name is Yaz.  I'm a teacher lived in various of countries. I like to travel around the world as I can. I'm a father of Dave.I know that software engineers, developers creating new technologies making people's life easier . All applications, software made by a lot of efforts by developers. Software is everywhere for example in daily life computer, TV remote control, fridge, printer, scanner, AC, microwave etc. Software development is vary of insutries like health, banking, education, military, fashion, construction, agriculture, trade, transportation, entertaintment etc. Software is vast industry field changing the world.  I like learning new information. By information I mean  especially the programming languages. When can't solve  problems hours of hours and you making new application at the end the feeling is awesome. The question is why I decided to change my career? Because there is an opportunity create new applications that people would benefit and  be professional software engineer or Full Stack Developer. Meet mastermind of best technologies, applicationsa and learn from them. Usually thinking what can give back to community as software engineer(developer) in the future. Programming languages are the tools to solve problems and make life easier. I built simple rails projects before but not a professianl way. I have decided take course because I liked the curriculum(flatiron curriculum). Usually when I learnt by myself questions were why and how. I'm happy to join course because learnt a lot of new things and getting perspctive. Happy coding :)
+Hello friends. I have created simple CLI gem daily deals on groupon. The first step is creating repository on github. Github.com click to new repository. Choose name for your gem make sure is not duplicate name.
+
+On your mac terminal create gem.  It should be public repository. Reload your github page  will see your project. 
+
+Then open your text editor or ide to see your project. On the terminal type atom . or sublime . to open your all project files.
+First thing create daily-deal file on bin directory and add **#!/usr/bin/env ruby**. That terminal interpreter understand it is ruby file. 
+To check it out if it is working or not  type on terminal bin/daily-deal and will see
+ -bash: bin/daily-deal: Permission denied
+Permission denied because file is not executable. Make file to executable cd bin and gonna get this:
+daily-deal file is not executable you can see it. r(read) w(write) x(execute)
+We need to change because user will interact with with daily-deal program.  After this steps could start programming your gem. First think about list of what need to do. Create cli file in the lib directory so you can start to coding. Create class and define methods that you woud use. On the **bin** directory create daily_deal file inside that file we would start our program.  During the coding were some challenges to but I watched the video and tried to understand(Thanks Avi). I did some research when get stuck. I had help from Kevin explained what was wrong when I can't solve the problem. Problem was I getting the deals and all instances collecting in one string. II have to iteration and problem would be solved.Now my program could list daily deals on groupon and when selecting deal shows title, original price, discount price, how many bought, ratings, product link. Of course program could be more complex and better than now. Hope one day will be. Happy coding:)
+
+
